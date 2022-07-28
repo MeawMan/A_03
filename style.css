@@ -54,7 +54,7 @@ body {
 /* slide part start */
 
 .as-slide {
-    min-height: 80vh;
+    min-height: 95vh;
     position: relative;
     z-index: 1;
 }
