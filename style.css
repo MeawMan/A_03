@@ -54,7 +54,7 @@ body {
 /* slide part start */
 
 .as-slide {
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
     z-index: 1;
 }
@@ -83,4 +83,45 @@ body {
     width: 100%;
     background: #0b1120de;
     z-index: -1;
+}
+
+
+/* course */
+
+.course-image img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.course-card {
+    min-height: 250px;
+}
+
+.student-card img {
+    width: 100% !important;
+}
+
+.as-width {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+
+
+/* accordion */
+
+.accordion * {
+    border: 0;
+}
+
+.accordion-button:focus {
+    background-color: #38bdf8;
+    color: #0e1527;
+    border: 0;
+    box-shadow: 0;
+}
+
+.text-yt {
+    color: #e73b7a;
 }
