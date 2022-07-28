@@ -1,0 +1,86 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(56, 189, 248)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #38bff830;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0e1527;
+}
+
+.as-main-bg {
+    background-color: #0e1527;
+}
+
+.as-any-card-bg {
+    background-color: #15203a;
+}
+
+.as-primary-color {
+    color: #38bdf8;
+}
+
+.as-btn-bg {
+    background-color: #38bdf8;
+    transition: 0.5s;
+}
+
+.as-btn-bg:hover {
+    color: #38bdf8;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+}
+
+.row-bg {
+    background-color: #38bdf8;
+}
+
+.as-btn-color {
+    color: #0b1120;
+}
+
+.as-border {
+    border-color: #cbedfc4e !important;
+}
+
+
+/* slide part start */
+
+.as-slide {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-one {
+    background: url(/img/cover-1.png) no-repeat left top;
+    background-size: cover;
+}
+
+.slide-two {
+    background: url(/img/cover-2.jpg) no-repeat left top;
+    background-size: cover;
+}
+
+.slide-three {
+    background: url(/img/cover-3.jpg) no-repeat right top;
+    background-size: cover;
+}
+
+.as-slide::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0b1120de;
+    z-index: -1;
+}
