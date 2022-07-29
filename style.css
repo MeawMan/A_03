@@ -50,7 +50,6 @@ body {
     border-color: #cbedfc4e !important;
 }
 
-
 /* slide part start */
 
 .as-slide {
@@ -85,7 +84,6 @@ body {
     z-index: -1;
 }
 
-
 /* course */
 
 .course-image img {
@@ -107,7 +105,6 @@ body {
     width: 70px;
     object-fit: cover;
 }
-
 
 /* accordion */
 
